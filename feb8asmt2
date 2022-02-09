@@ -1,0 +1,10 @@
+#is the number is even or odd
+a=float(input('enter a value'))
+if(a%2==0):
+    print('given number is even')
+else:
+    print('given number is odd')
+    
+OUTPUT
+enter a value4
+given number is even
