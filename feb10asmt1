@@ -1,0 +1,27 @@
+#program to generate student result
+sname=input('enter student name:')
+srollno=int(input('enter student roll no:'))
+grp=input('enter students grp:')
+s1=int(input('english marks:'))
+s2=int(input('hindi marks:'))
+s3=int(input('data science marks:'))
+s4=int(input('statistics marks:'))
+s5=int(input('computer science marks:'))
+s6=int(input('maths marks:'))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    print('pass')
+else:
+    print('fail')
+
+
+OUTPUT
+enter student name:swetha
+enter student roll no:35
+enter students grp:dsstcs
+english marks:90
+hindi marks:70
+data science marks:80
+statistics marks:60
+computer science marks:87
+maths marks:90
+pass
