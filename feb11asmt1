@@ -1,0 +1,37 @@
+#program to generate students grade
+sno=int(input('enter student roll number:'))
+sname=input('enter student name:')
+s1=int(input('english marks:'))
+s2=int(input('hindi marks:'))
+s3=int(input('data science marks:'))
+s4=int(input('statistics marks:'))
+s5=int(input('computer science marks:'))
+s6=int(input('maths marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=(s1+s2+s3+s4+s5+s6)/6
+if avg>=91:
+    print(sname,':O-grade')
+elif avg>=81:
+    print(sname,':A-grade')
+elif avg>=71:
+    print(sname,':B-grade')
+elif avg>=61:
+    print(sname,':C-grade')
+elif avg>=51:
+    print(sname,':D-grade')
+elif avg>=40:
+    print(sname,':pass')
+else:
+    print(sname,':fail')
+       
+        
+    
+enter student roll number:125
+enter student name:swetha
+english marks:80
+hindi marks:90
+data science marks:70
+statistics marks:89
+computer science marks:78
+maths marks:79
+swetha :A-grade
