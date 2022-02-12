@@ -1,0 +1,16 @@
+a=float(input('enter a number:'))
+b=float(input('enter a number:'))
+if a==b:
+    print(a,'is equal to',b)
+elif a!=b:
+    print(a,'is not equal to',b)
+if a>b:
+    print(a,'is greater than',b)
+else: 
+    print(a,'is less than',b)
+    
+OUTPUT
+enter a number:3
+enter a number:5
+3.0 not equal to 5.0
+3.0 less than 5.0
