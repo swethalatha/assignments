@@ -1,0 +1,15 @@
+#program to find number of digits in a given number
+n=int(input('enter a number:'))
+count=0
+while n>0:
+    count=count+1
+    n=n//10
+print('number of digits:',count)
+
+
+
+OUTPUT
+
+
+enter a number:1234567890
+number of digits: 10
