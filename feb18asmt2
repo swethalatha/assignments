@@ -1,0 +1,13 @@
+#program to print sum of fibonocci series
+n=int(input("enter n value"))
+fib=1
+sum=0
+for i in range(1,n+1):
+    fib=fib*i
+sum=sum+fib
+print(sum)
+
+OUTPUT
+
+enter n value10
+sum of the series 3628800
