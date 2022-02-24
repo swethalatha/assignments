@@ -1,0 +1,11 @@
+l=[]
+n=int(input('enter n'))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print(l)
+c=0
+for i in l:
+    if n%i!=0:
+        c=c+1 
+print(c)
