@@ -1,0 +1,19 @@
+#part 2 asmt-2 6 may 22
+empdata={100:['george','hr','29/03/2017',100000],
+        200:['ben','manager','03/03/2018',85000],
+        300:['john','developer','21/12/2021',50000],
+        400:['kitty','data analyst','04/05/2020',30000],
+        500:['kelvin','data engineer','23/02/2016',150000]}
+b=int(input('employee number: '))
+print('empname:',empdata[b][0])
+print('empdesig:',empdata[b][1])
+print('DOJ:',empdata[b][2])
+print('salary:',empdata[b][3])
+
+OUTPUT
+
+employee number: 200
+empname: ben
+empdesig: manager
+DOJ: 03/03/2018
+salary: 85000
