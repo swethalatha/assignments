@@ -1,0 +1,19 @@
+#part 2 asmt-1 6 may 22
+stures={1:['ram','male','dsstcs',9.87],
+       2:['sita','female','mstcs',8.9],
+       3:['swe','female','mpcs',8.7],
+       4:['anshu','female','bcom',9.5],
+       5:['sri','male','bca',7.6]}
+a=int(input('student number '))
+print('sname',stures[a][0])
+print('gender',stures[a][1])
+print('group',stures[a][2])
+print('result',stures[a][3])
+
+OUTPUT
+
+student number 1
+sname ram
+gender male
+group dsstcs
+result 9.87
