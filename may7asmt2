@@ -1,0 +1,12 @@
+#part 2 asmt-2 7 may 22
+dict2={}
+n=int(input())
+m=n**(0.5)
+if (m//1)==m:
+    dict2[n]='yes'
+else:
+    dict2[n]='no'
+print(dict2)
+
+4
+{4: 'yes'}
