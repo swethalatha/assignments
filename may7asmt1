@@ -1,0 +1,22 @@
+#part 2 asmt-1 7 may 22
+list1=[]
+dict1={}
+n=int(input('no.of elements in list:'))
+for i in range(n):
+    a=int(input('enter list elements:'))
+    list1.append(a)
+for i in list1:
+    if i%2==0:
+        dict1[i]='yes'
+    else:
+        dict1[i]='no'
+print(dict1)
+
+
+no.of elements in list:5
+enter list elements:5
+enter list elements:3
+enter list elements:4
+enter list elements:6
+enter list elements:99
+{5: 'no', 3: 'no', 4: 'yes', 6: 'yes', 99: 'no'}
