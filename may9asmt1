@@ -1,0 +1,25 @@
+#part2 asmt2 9may 2022
+n=int(input())
+d={}
+for i in range(n):
+    x=input().split()
+    d[x[0]]=x[1]
+while True:
+    try:
+        name=input()
+        if name in d:
+            print(name,'=',d[name])
+        else:
+            print('not found')
+    except:
+            break
+            
+     OUTPUT:
+3
+swe swe@gmail.com
+abhi abhi@gmail.com
+vinii vinni@gmail.com
+abc
+not found
+swe
+swe = swe@gmail.com
