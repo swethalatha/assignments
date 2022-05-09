@@ -1,0 +1,12 @@
+#may9 asmt2
+stud={'sname':['a','b','c'],'sno':[2,23,35],'smarks':[75,85,95],'clgname':['adckkd','adcrjy','adcwms']}
+print(stud)
+stud.pop('sname')
+stud.pop('sno')
+stud.pop('smarks')
+print(stud)
+
+OUTPUT
+   
+{'sname': ['a', 'b', 'c'], 'sno': [2, 23, 35], 'smarks': [75, 85, 95], 'clgname': ['adckkd', 'adcrjy', 'adcwms']}
+{'clgname': ['adckkd', 'adcrjy', 'adcwms']}
