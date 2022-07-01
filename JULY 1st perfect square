@@ -1,0 +1,16 @@
+#To find given given number is perfect square are not 
+import math
+number = int(input())
+
+root = math.sqrt(number) 
+if int(root) ** 2 == number:
+    print("The number is a perfect square")
+else:
+    print(" The number is not a perfect square")
+    
+#Output
+25
+The number is a perfect square 
+
+17
+The number is not a perfect square
