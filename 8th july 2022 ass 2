@@ -1,0 +1,18 @@
+n=input("enter string")
+a=[]
+b=[]
+for i in n:
+    if i.isalpha():
+        a.append((i))
+print("the letters in given string",a)
+for i in a:
+    if i not in b:
+        b.append(i)
+print("the letters in the given string without duplicate",b)       
+        
+output:
+
+
+enter stringsai sandeep
+the letters in given string ['s', 'a', 'i', 's', 'a', 'n', 'd', 'e', 'e', 'p']
+the letters in the given string without duplicate ['s', 'a', 'i', 'n', 'd', 'e', 'p']
