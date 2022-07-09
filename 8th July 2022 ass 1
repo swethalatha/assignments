@@ -1,0 +1,17 @@
+n=input("enter string")
+a=[]
+b=[]
+for i in n:
+    if i.isdigit():
+        a.append(int(i))
+print("the numbers in given string",a)
+for i in a:
+    if i not in b:
+        b.append(i)
+print("the numbers in the given string without duplicate",b)        
+        
+output:
+
+enter string112224466
+the numbers in given string [1, 1, 2, 2, 2, 4, 4, 6, 6]
+the numbers in the given string without duplicate [1, 2, 4, 6]
